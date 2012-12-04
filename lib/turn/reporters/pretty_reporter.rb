@@ -75,8 +75,6 @@ module Turn
     # Invoked when a test is skipped.
     def skip(exception, message=nil)
       banner SKIP
-
-      prettify(exception, message)
     end
 
     # Invoked after all tests in a testcase have ben run.
